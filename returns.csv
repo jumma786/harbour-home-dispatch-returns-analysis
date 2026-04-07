@@ -1,0 +1,12 @@
+return_id,order_line_id,return_date,return_reason,refund_amount_gbp
+R9001,OL1003,2026-01-12,Late Delivery,24.99
+R9002,OL1005,2026/01/16,Damaged,64.99
+R9003,OL1009,15-01-2026,late delivery,24.99
+R9004,OL1013,2026-01-24,Damaged ,64.99
+R9005,OL1015,2026-01-28,Changed Mind,59.98
+R9006,OL1018,2026-01-29,Wrong item,24.99
+R9007,OL1021,2026-01-31,damaged,64.99
+R9008,OL1024,2026-02-12,Late delivery,49.98
+R9009,OL1026,2026-02-15,Damaged,64.99
+R9010,OL1029,2026-02-16,late Delivery,24.99
+R9011,OL1031,2026-02-18,Poor Quality,59.98

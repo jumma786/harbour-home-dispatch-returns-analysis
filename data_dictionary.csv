@@ -1,0 +1,27 @@
+file_name,column_name,description,data_type,example_value,notes
+order_lines.csv,order_line_id,Unique identifier for each order line,text,OL1001,Primary row identifier in main fact table
+order_lines.csv,order_id,Order identifier that may repeat across multiple order lines,text,O5001,One order can contain multiple lines
+order_lines.csv,order_date,Date order was placed,text date,2026-01-03,Contains inconsistent formats that should be standardised
+order_lines.csv,customer_id,Customer identifier,text,C001,Links to customers_lookup.csv and may need standardisation
+order_lines.csv,product_code,Product identifier,text,P100,Links to products_lookup.csv and may need standardisation
+order_lines.csv,sales_channel,Sales channel used for order,text,Web,Contains inconsistent labels and one blank value
+order_lines.csv,quantity,Units ordered,whole number,2,Use with unit price to calculate line revenue
+order_lines.csv,unit_price_gbp,Unit selling price in pounds sterling,decimal,39.99,Pre-discount pricing already reflected in file
+order_lines.csv,dispatch_status,Dispatch outcome label,text,Late,Includes Dispatched Late and Cancelled
+order_lines.csv,dispatch_days,Days taken to dispatch,decimal/blank,4,Cancelled order has blank value
+order_lines.csv,promised_dispatch_days,Dispatch SLA in days,whole number,2,Useful for late-dispatch flag
+customers_lookup.csv,customer_id,Customer identifier,text,C001,Join key to order_lines.csv
+customers_lookup.csv,customer_name,Customer full name,text,Emma Lewis,Reference only
+customers_lookup.csv,region,Customer region,text,london,Contains casing and spacing inconsistencies
+customers_lookup.csv,customer_type,Customer status segment,text,Repeat,Contains inconsistent casing and spacing
+customers_lookup.csv,signup_channel,Original acquisition channel,text,Email,Reference field for optional analysis
+products_lookup.csv,product_code,Product identifier,text,P100,Join key to order_lines.csv
+products_lookup.csv,product_name,Descriptive product name,text,Bamboo Laundry Basket,Reference field
+products_lookup.csv,category,Product category,text,Home Storage,Contains inconsistent labels and casing
+products_lookup.csv,subcategory,Product subcategory,text,Laundry,One value is blank
+products_lookup.csv,supplier_name,Supplier name,text,Oak & Pine Supplies,Useful for extension analysis
+returns.csv,return_id,Return record identifier,text,R9001,Primary key for returns file
+returns.csv,order_line_id,Order line linked to return,text,OL1003,Join key to order_lines.csv
+returns.csv,return_date,Date return recorded,text date,2026-01-12,Contains inconsistent formats
+returns.csv,return_reason,Reason for return,text,Late Delivery,Contains inconsistent casing and spacing
+returns.csv,refund_amount_gbp,Refund amount in pounds sterling,decimal,24.99,Useful for financial impact summaries

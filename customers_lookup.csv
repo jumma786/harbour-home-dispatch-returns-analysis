@@ -1,0 +1,13 @@
+customer_id,customer_name,region,customer_type,signup_channel
+C001,Emma Lewis,london,Repeat,Email
+C002,Daniel Shah,South east,New,Paid Search
+C003,Priya Nair,Midlands ,Repeat,Organic
+C004,Oliver Evans,North west,VIP,Referral
+C005,Hannah Jones,South-East,Repeat,Email
+C006,James Patel,SCOTLAND,New,Organic
+C007,Chloe Martin,wales,Repeat,Email
+C008,Aisha Khan,London ,vip ,Paid Search
+C009,Ben Carter,Yorkshire and Humber,Repeat,Organic
+C010,Laura Green,North West,New,Referral
+C011,Megan Price,midlands,Repeat,Email
+C012,Tariq Ali,South East,VIP,Paid Search
