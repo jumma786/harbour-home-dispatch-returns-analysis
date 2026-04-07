@@ -77,7 +77,16 @@ Key steps performed:
 
 ## 📈 Visualisations
 
-(Add screenshots here if possible)
+<img width="1106" height="637" alt="image" src="https://github.com/user-attachments/assets/e8dd6d20-07a8-4719-8d42-e059996f23a9" />
+<img width="1316" height="609" alt="image" src="https://github.com/user-attachments/assets/139db3df-f23b-4507-b256-26e2046b02b6" />
+<img width="1306" height="625" alt="image" src="https://github.com/user-attachments/assets/cb9b2659-afb5-490c-a837-54dd4c715854" />
+<img width="1347" height="635" alt="image" src="https://github.com/user-attachments/assets/473809f1-6e1d-42db-965e-ae1d8e50af88" />
+<img width="782" height="501" alt="image" src="https://github.com/user-attachments/assets/15b3f78d-594e-4d90-a958-b6e52c119f50" />
+
+
+
+
+
 
 ---
 
